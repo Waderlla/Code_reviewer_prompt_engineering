@@ -21,11 +21,26 @@ The OpenAI platform step ("Reusable Prompts") was intentionally skipped — the 
 was completed entirely without paid services, in line with the 100% local/free approach
 (local model via Ollama instead of the OpenAI API).
 
+## Screenshots
+
+Result view (real Ollama call, `overall_score`, `found_issues`, `improved_code`):
+
+![Result view](screenshots/screenshot-1.jpeg)
+
+Loading state while the local model is analyzing the code:
+
+![Loading state](screenshots/screenshot-2.jpeg)
+
+Empty state (default, before running a review):
+
+![Empty state](screenshots/screenshot-3.jpeg)
+
 ## Project structure
 
 ```
 app.py, llm.py, models.py, prompts.py   -> FastAPI backend (JSON API only, no HTML)
 frontend/                                -> React/Vite frontend, generated with Google AI Studio
+screenshots/                             -> screenshots used in this README
 push_prompts_to_langfuse.py              -> one-off script that uploads prompts to LangFuse
 ```
 
