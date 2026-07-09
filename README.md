@@ -25,7 +25,7 @@ was completed entirely without paid services, in line with the 100% local/free a
 
 Result view (real Ollama call, `overall_score`, `found_issues`, `improved_code`):
 
-![Result view](screenshots/screenshot-3.jpeg)
+![Result view](screenshots/screenshot-1.jpeg)
 
 Loading state while the local model is analyzing the code:
 
@@ -33,7 +33,7 @@ Loading state while the local model is analyzing the code:
 
 Empty state (default, before running a review):
 
-![Empty state](screenshots/screenshot-1.jpeg)
+![Empty state](screenshots/screenshot-3.jpeg)
 
 ## Project structure
 
