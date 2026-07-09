@@ -1,0 +1,6 @@
+{
+  "name": "AI Code Reviewer",
+  "description": "Narzędzie do automatycznej analizy i oceny kodu z użyciem modeli AI.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
