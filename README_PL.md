@@ -21,11 +21,26 @@ Krok z platformą OpenAI ("Reusable Prompts") został celowo pominięty — zada
 wykonano w całości bez płatnych usług, zgodnie z podejściem 100% lokalnym/darmowym
 (lokalny model przez Ollamę zamiast OpenAI API).
 
+## Zrzuty ekranu
+
+Widok wyniku (realne wywołanie Ollamy, `overall_score`, `found_issues`, `improved_code`):
+
+![Widok wyniku](screenshots/screenshot-1.jpeg)
+
+Stan ładowania podczas analizy kodu przez lokalny model:
+
+![Stan ładowania](screenshots/screenshot-2.jpeg)
+
+Stan pusty (domyślny, przed uruchomieniem oceny):
+
+![Stan pusty](screenshots/screenshot-3.jpeg)
+
 ## Struktura projektu
 
 ```
 app.py, llm.py, models.py, prompts.py   -> backend FastAPI (tylko JSON API, bez HTML)
 frontend/                                -> frontend React/Vite, wygenerowany w Google AI Studio
+screenshots/                             -> zrzuty ekranu użyte w tym README
 push_prompts_to_langfuse.py              -> jednorazowy skrypt wgrywający prompty do LangFuse
 ```
 
